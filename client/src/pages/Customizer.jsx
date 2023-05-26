@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from "framer-motion"
 import { useState, useEffect } from "react"
 import { useSnapshot } from "valtio"
 import state from "../store"
-import config from '../config/config'
+//import config from '../config/config'
 import {download} from '../assets'
 import {downloadCanvasToImage, reader} from '../config/helpers'
 import {EditorTabs, FilterTabs, DecalTypes} from '../config/constants'

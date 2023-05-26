@@ -32,9 +32,8 @@ const Home = () => {
                     Let's <br className='xl:block hidden'/> Do It
                   </h1>
                 </motion.div>
-              </motion.div>
               <motion.div {...headContentAnimation} className='flex flex-col gap-5'>
-                <p className='max-w-md font-normal tect-gray-600 text-base'>
+                <p className='max-w-md font-normal text-gray-600 text-base'>
                   Create your unique and exlusive shirt with our brand new 3d customization tool.
                   <strong>Unleash your imagination</strong>
                   {" "} and define your own style.
@@ -45,6 +44,7 @@ const Home = () => {
                 handleClick={()=>state.intro = false}
                 customStyles="w-fit px-4 py-2.5 font-bold text-sm"/>
               </motion.div>
+                </motion.div>
             </motion.section>
            )
 
